@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.info.legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: -8px;
+  font-size: 12px;
+}
+
+.info.legend div span:first-child {
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.info.legend div span:last-child {
+  margin-left: 5px;
+}
